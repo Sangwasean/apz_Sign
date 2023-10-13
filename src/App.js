@@ -1,3 +1,4 @@
+import Advantages from "./components/Advantages";
 import Document_boxes from "./components/Document_boxes";
 import Main from "./components/Main";
 import NavBar from "./components/NavBar";
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Main/>
       <Document_boxes/>
+      <Advantages/>
     </div>
   );
 }
