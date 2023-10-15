@@ -30,24 +30,24 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className=" fixed drop-shadow-xl md:flex p-5  top-0 bg-slate-50 w-screen 
+      <nav className=" fixed drop-shadow-xl lg:flex p-5  top-0 bg-slate-50 w-screen 
       font-semibold font-['Arial'] ">
         <div className="flex justify-between items-center ">
         <span className="text-2xl text-red-500 cursor-pointer">
               <a href="" className="whitespace-nowrap font-serif">APZ-Sign</a>
             </span>
-            <span className="text-3xl cursor-pointer md:hidden block mx-2">
+            <span className="text-3xl cursor-pointer lg:hidden block mx-2">
             <HiMenu/>
             </span>
           </div>
             
-        <ul className=" md:flex h-fit w-full  md:items-center justify-around flex-row
+        <ul className=" lg:flex h-fit w-full  lg:items-center justify-around flex-row
          space-x-10  top-[-400px] transition-all ease-in duration-500">
-          <div className="md:flex md:items-center z-[-1] md:z-auto md:static 
-           w-full left-0 md:w-auto py-4 md:pl-0 pl-7 md:opacity-100 opacity-0">
+          <div className="lg:flex lg:items-center z-[-1] lg:z-auto lg:static 
+           w-full left-0 lg:w-auto py-4 lg:pl-0 pl-7 lg:opacity-100 ">
             
             <li className="mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 
-            md:my-0">
+            lg:my-0">
               <a className="flex" onClick={handleClick}>
                 Features
                 {!anchorEl ? (
@@ -91,29 +91,29 @@ const NavBar = () => {
                 </List>
               </Popover>
             </li>
-            <li className="mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 md:my-0">
+            <li className="mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 lg:my-0">
               <a>API</a>
             </li>
-            <li className=" whitespace-nowrap mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 md:my-0">
+            <li className=" whitespace-nowrap mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 lg:my-0">
               <a>Contact us</a>
             </li>
-            <li className="whitespace-nowrap mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 md:my-0">
+            <li className="whitespace-nowrap mx-4 cursor-pointer hover:text-red-500 duration-300 my-6 lg:my-0">
               <a>About us</a>
             </li>
           </div>
           {/*  end */}
-          <div className="relative md:flex md:items-center">
+          <div className="relative lg:flex lg:items-center">
             <input
               type="text"
               name=""
               id=""
-              className="bg-slate-200 border border-gray-300 text-black h-10 pl-2 mr-4 rounded-xl w-64 my-6 md:my-0"
+              className="bg-slate-200 border border-gray-300 text-black h-10 pl-2 mr-4 rounded-xl w-64 my-6 lg:my-0"
               placeholder="Search"
             />
-            <button className="mx-4 border-4 rounded-lg border-red-500 p-2 my-6 md:my-0">
+            <button className="mx-4 border-4 rounded-lg border-red-500 p-2 my-6 lg:my-0">
               Login
             </button>
-            <button className="mx-4 rounded-lg  p-2 bg-red-500 text-white font-medium font-['Proxima Nova'] my-6 md:my-0 ">
+            <button className="mx-4 rounded-lg  p-2 bg-red-500 text-white font-medium font-['Proxima Nova'] my-6 lg:my-0 ">
               Signup
             </button>
           </div>
