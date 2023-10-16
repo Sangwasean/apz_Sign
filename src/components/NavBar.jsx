@@ -1,11 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FaArrowDown, FaArrowUp, FaSearch, FaList } from "react-icons/fa";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import { Select } from "@mui/material";
 import Popover from "@mui/material/Popover";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
